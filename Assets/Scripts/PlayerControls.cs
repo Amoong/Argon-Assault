@@ -24,5 +24,10 @@ public class PlayerControls : MonoBehaviour
     {
         float xThrow = movement.ReadValue<Vector2>().x;
         float yThrow = movement.ReadValue<Vector2>().y;
+
+        float xOffset = .1f;
+        float newXPos = transform.localPosition.x + xOffset;
+
+        transform.localPosition = new Vector3(xOffset, transform.localPosition.y, transform.localPosition.z);
     }
 }
