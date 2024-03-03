@@ -433,10 +433,10 @@ PlayableDirector:
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
-  - key: {fileID: -6224060286515563976, guid: d352f96e3d5d8c94cbeb6efac4ff97da, type: 2}
-    value: {fileID: 2123827648}
   - key: {fileID: 5900983408130127703, guid: d352f96e3d5d8c94cbeb6efac4ff97da, type: 2}
     value: {fileID: 2087487624}
+  - key: {fileID: -8483797065988959619, guid: d352f96e3d5d8c94cbeb6efac4ff97da, type: 2}
+    value: {fileID: 2123827648}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1726638300
@@ -636,7 +636,7 @@ Transform:
   - {fileID: 6667882807223853183}
   - {fileID: 1726638300}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 359.6528, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 359.6574, z: 0}
 --- !u!1001 &3842130353471693800
 PrefabInstance:
   m_ObjectHideFlags: 0
