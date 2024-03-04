@@ -15,23 +15,28 @@ public class PlayerControls : MonoBehaviour
 
     [SerializeField] float controlRollFactor = -10f;
 
+    [SerializeField] InputAction fire;
+
     float xThrow;
     float yThrow;
 
     void OnEnable()
     {
         movement.Enable();
+        fire.Enable();
     }
 
     void OnDisable()
     {
         movement.Disable();
+        fire.Disable();
     }
 
     void Update()
     {
         ProcessTranslation();
         ProcessRotation();
+        ProcessFiring();
     }
 
     void ProcessRotation()
@@ -61,5 +66,17 @@ public class PlayerControls : MonoBehaviour
         float clampedYPos = Mathf.Clamp(rawYPos, -yRange, yRange);
 
         transform.localPosition = new Vector3(clampedXPos, clampedYPos, transform.localPosition.z);
+    }
+
+    void ProcessFiring()
+    {
+        if (fire.IsPressed())
+        {
+            Debug.Log("Fire");
+        }
+        else
+        {
+            Debug.Log("Not Fire");
+        }
     }
 }
