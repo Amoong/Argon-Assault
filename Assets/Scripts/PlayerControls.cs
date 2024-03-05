@@ -74,29 +74,23 @@ public class PlayerControls : MonoBehaviour
     {
         if (fire.IsPressed())
         {
-            ActiveLasers();
+            SetLasersActive(true);
         }
         else
         {
-            DeactivateLasers();
+            SetLasersActive(false);
         }
     }
 
-    void ActiveLasers()
+    void SetLasersActive(bool isActive)
     {
         foreach (GameObject laser in lasers)
         {
-            laser.SetActive(true);
+            ParticleSystem.EmissionModule em = laser.GetComponent<ParticleSystem>().emission;
+            em.enabled = isActive;
         }
     }
 
-    void DeactivateLasers()
-    {
-        foreach (GameObject laser in lasers)
-        {
-            laser.SetActive(false);
-        }
-    }
 
 
 }

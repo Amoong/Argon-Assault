@@ -448,6 +448,14 @@ PrefabInstance:
       propertyPath: m_SceneBindings.Array.data[0].value
       value: 
       objectReference: {fileID: 2087487624}
+    - target: {fileID: 3292569561717774276, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: EmissionModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3406286678629759609, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: EmissionModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4280156827618402577, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
       propertyPath: m_Name
       value: Player Rig
