@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -7,6 +8,7 @@ public class PlayerControls : MonoBehaviour
     [SerializeField] float controlSpeed = 30f;
     [SerializeField] float xRange = 10f;
     [SerializeField] float yRange = 7f;
+    [SerializeField] GameObject[] lasers;
 
     [SerializeField] float positionPitchFactor = -2f;
     [SerializeField] float controlPitchFactor = -10f;
@@ -72,11 +74,29 @@ public class PlayerControls : MonoBehaviour
     {
         if (fire.IsPressed())
         {
-            Debug.Log("Fire");
+            ActiveLasers();
         }
         else
         {
-            Debug.Log("Not Fire");
+            DeactivateLasers();
         }
     }
+
+    void ActiveLasers()
+    {
+        foreach (GameObject laser in lasers)
+        {
+            laser.SetActive(true);
+        }
+    }
+
+    void DeactivateLasers()
+    {
+        foreach (GameObject laser in lasers)
+        {
+            laser.SetActive(false);
+        }
+    }
+
+
 }

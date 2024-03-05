@@ -492,11 +492,117 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8087029862194255038, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: fire.m_Name
+      value: Fire
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087029862194255038, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: lasers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087029862194255038, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: lasers.Array.data[0]
+      value: 
+      objectReference: {fileID: 25312245828790501}
+    - target: {fileID: 8087029862194255038, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: lasers.Array.data[1]
+      value: 
+      objectReference: {fileID: 25312245828790500}
+    - target: {fileID: 8087029862194255038, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087029862194255038, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[0].m_Id
+      value: c98acaa3-85a2-478f-b1d5-32836cf25579
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087029862194255038, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[1].m_Id
+      value: 35027db3-48cb-4325-9c50-bb8ada65870f
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087029862194255038, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[2].m_Id
+      value: 812904c0-3382-4ce1-8e88-62da0d7acc49
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087029862194255038, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[3].m_Id
+      value: d022b086-92b4-49bb-abb0-25f6de51511a
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087029862194255038, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[0].m_Name
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087029862194255038, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[0].m_Path
+      value: <Keyboard>/space
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087029862194255038, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[1].m_Name
+      value: modifier
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087029862194255038, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[1].m_Path
+      value: <Keyboard>/space
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087029862194255038, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[2].m_Name
+      value: binding
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087029862194255038, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[2].m_Path
+      value: <Keyboard>/space
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087029862194255038, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[3].m_Name
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087029862194255038, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[0].m_Flags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087029862194255038, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[1].m_Flags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087029862194255038, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[2].m_Flags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087029862194255038, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[3].m_Flags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087029862194255038, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[0].m_Action
+      value: Fire
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087029862194255038, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[1].m_Action
+      value: Fire
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087029862194255038, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[2].m_Action
+      value: Fire
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087029862194255038, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[3].m_Action
+      value: Fire
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+--- !u!1 &25312245828790500 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8860520422329657930, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+  m_PrefabInstance: {fileID: 25312245828790499}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &25312245828790501 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8647726420029671415, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+  m_PrefabInstance: {fileID: 25312245828790499}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
