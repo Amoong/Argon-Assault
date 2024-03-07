@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!198 &112186534 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3205206080498241582, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+  m_PrefabInstance: {fileID: 25312245828790499}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -686,6 +691,10 @@ PrefabInstance:
       propertyPath: m_SceneBindings.Array.data[0].value
       value: 
       objectReference: {fileID: 2087487624}
+    - target: {fileID: 3205206080498241582, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3292569561717774276, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
       propertyPath: EmissionModule.enabled
       value: 0
@@ -698,6 +707,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Rig
       objectReference: {fileID: 0}
+    - target: {fileID: 4706612615250573562, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: crashVFX
+      value: 
+      objectReference: {fileID: 112186534}
+    - target: {fileID: 4706612615250573562, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 112186534}
     - target: {fileID: 5932486265110038218, guid: ae32f952c4a784a4784a3f0c8638a4c9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 97.4
