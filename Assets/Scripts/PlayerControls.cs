@@ -25,7 +25,7 @@ public class PlayerControls : MonoBehaviour
 
     [Header("Screen position based tuning")]
     [SerializeField] float positionPitchFactor = -2f;
-    [SerializeField] float positionYawFactor = -2f;
+    [SerializeField] float positionYawFactor = -1f;
 
     [Header("Player input based tuning")]
     [SerializeField] float controlPitchFactor = -10f;
