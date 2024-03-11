@@ -378,13 +378,17 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: -8483797065988959619, guid: d352f96e3d5d8c94cbeb6efac4ff97da, type: 2}
     value: {fileID: 1400695582}
+  - key: {fileID: 3393829215115433306, guid: d352f96e3d5d8c94cbeb6efac4ff97da, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References:
     - 30be99799e119e249ab9ead16b80371c: {fileID: 2060993582}
     - 1cc14c87d1d748541bb5d111742b07f2: {fileID: 2060993582}
     - 120ff5d3a2a9fd349984223af03d4b6d: {fileID: 957606816}
+    - 8a03119111815aa4a8931934b8353f7f: {fileID: 666947330}
     - 49a93bea62549664fbedff28a268be36: {fileID: 125331879}
     - 8016351be967f234cac317b862a43851: {fileID: 2018796264}
+    - 3969e22ce85ea614bada0e726412eb38: {fileID: 666947330}
     - a5808218fe1cf0347b5549d2206ea67f: {fileID: 311417063}
     - 28b0f97e3a7081c4eafbbeb2c2596091: {fileID: 240645178}
 --- !u!4 &424441099
@@ -402,6 +406,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &666947330 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 267745237720174367, guid: 329625dc7dcc9ef419d0bc1e5b2822a3, type: 3}
+  m_PrefabInstance: {fileID: 1217702314930995045}
+  m_PrefabAsset: {fileID: 0}
 --- !u!108 &705507994 stripped
 Light:
   m_CorrespondingSourceObject: {fileID: 4597461389105866558, guid: 029507da0c3dba049ad1dacae07a08c5, type: 3}

@@ -42,7 +42,6 @@ public class Enemy : MonoBehaviour
 
     void ProcessHit()
     {
-        scoreBoard.IncreaseScore(scorePerHit);
 
         float healthPercent = (float)hitPoint / originHealth;
 
@@ -59,6 +58,7 @@ public class Enemy : MonoBehaviour
     }
     void KillEnemy()
     {
+        scoreBoard.IncreaseScore(scorePerHit);
         GameObject vfx = Instantiate(deathVFX, transform.position, Quaternion.identity);
         vfx.transform.parent = parentGameObject.transform;
         Destroy(gameObject);
