@@ -4,7 +4,7 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] int hitPoint = 3;
     [SerializeField] GameObject hitVFX;
-    [SerializeField] GameObject deathVFX;
+    [SerializeField] GameObject deathFX;
     [SerializeField] int scorePerHit = 15;
 
     GameObject parentGameObject;
@@ -59,8 +59,8 @@ public class Enemy : MonoBehaviour
     void KillEnemy()
     {
         scoreBoard.IncreaseScore(scorePerHit);
-        GameObject vfx = Instantiate(deathVFX, transform.position, Quaternion.identity);
-        vfx.transform.parent = parentGameObject.transform;
+        GameObject fx = Instantiate(deathFX, transform.position, Quaternion.identity);
+        fx.transform.parent = parentGameObject.transform;
         Destroy(gameObject);
     }
 
